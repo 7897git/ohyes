@@ -1,0 +1,70 @@
+#
+# This file contains configuration flags to customize your site
+dev: 
+name: Your Name
+title: Blog-N
+description: Web Blog from Somewhere
+
+avatar: https://ik.imagekit.io/x1666/logo/n_logo.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655309134716
+
+noimage: https://ik.imagekit.io/x1666/logo/noimg_VmA642Ljl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655309218489
+
+footer-links:
+  dribbble:
+  email:
+  facebook: 
+  flickr:
+  github: ohyeohno
+  instagram: 
+  linkedin:
+  pinterest:
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+
+disqus:
+
+google_analytics: 'UA-xxxxxxxx-1'
+
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-xxxxxxxxxxxxxx"
+adsense-data-ad-slot: "xxxxxxxx"
+
+url:
+
+baseurl: ""
+
+permalink: /:title/
+
+version: v4.2.2
+
+lazyimages: "enabled"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sass-converter
+
+paginate: 6
+paginate_path: /page:num/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

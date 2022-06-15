@@ -1,0 +1,22 @@
+<button class="open-button" onclick="openForm()"><i class="fa fa-commenting"></i> Contact</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page" class="form-container">
+    <label for="msg"><b>Message</b></label>
+    <span class="cancel" onclick="closeForm()"><i class="fa fa-close"></i></span>
+    <input placeholder="Your Name.." name="name" required/>
+    <input placeholder="Your E-Mail.." name="email" required/>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>

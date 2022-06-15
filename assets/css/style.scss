@@ -1,0 +1,588 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "./reset";
+@import "./variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $lightGray;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 10px;
+  width: 100%;
+
+  @include mobile {
+  max-width: 100%;}
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+  a:hover{
+    text-shadow: 2px 2px 7px $lightGray;}
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &.active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 20px;
+}
+
+.masthead {
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 0px 20px 0px 0px;
+    box-shadow: 0 0 10px -3px #666;
+    background: rgb(121,14,232);
+    background: -moz-linear-gradient(90deg, rgba(121,14,232,1) 0%, rgba(121,14,232,0.8407738095238095) 35%, #eee 100%);
+    background: -webkit-linear-gradient(90deg, rgba(121,14,232,1) 0%, rgba(121,14,232,0.8407738095238095) 35%, #eee 100%);
+    background: linear-gradient(90deg, rgba(121,14,232,1) 0%, rgba(121,14,232,0.8407738095238095) 35%, #eee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#790ee8",endColorstr="#ffffff",GradientType=1);
+    overflow: hidden;
+
+  @include mobile {
+    text-align: center;
+    background: content-box;
+    box-shadow: none;
+    padding: 0px;
+  }
+}
+
+.masthead .site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px -3px #666;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px -3px #666;
+  }
+
+  img {
+    border-radius: 50px;
+    box-shadow: 0 0 10px -3px #666;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $lightGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  @include mobile {
+  color: $darkGray;}
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $lightGray;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+    color: $gray;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue;
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    padding: 5px 10px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+  a:hover, a.active{
+    box-shadow: 0 0 10px -3px #666;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: $white;
+    color: $blue;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+
+@include mobile {
+    position:inherit!important;
+    width: 100%;
+    margin: 0px;
+    }
+}
+
+//
+// .main
+//
+.posts {
+    width: auto;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    animation: fade-up 0.7s ease-out forwards running;
+
+    @include mobile {grid-template-columns: 1fr;}
+}
+
+.posts > .grid {
+    color: #333;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.firstpage .posts .grid:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1em;
+    padding: 0;
+
+    @include mobile {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+    background: $white;
+    border-radius: 10px;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .thumb {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .thumb:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px #666;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .entry {
+    padding: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+    float: right;
+    padding: 6px 10px;
+    margin-bottom:10px;
+  }
+  .read-more:hover {
+    padding: 6px 10px;
+    margin-bottom:10px;
+    border-radius: 25px;
+    background: #666;
+    color: #fff;
+    box-shadow: 0 0 10px -3px #666;
+    }
+}
+
+.postingan{padding:10px;background:$white;width:100%;max-width:65%;border-radius:10px;}
+
+.firstpage .grid:nth-child(1) {
+    .post .thumb{
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px #666;
+    object-fit:cover;
+    height:465px;
+    width:100%;
+    object-position:top;
+
+    @include mobile {
+    height: auto;}
+    }
+}
+.firstpage .grid:nth-child(2), .firstpage .grid:nth-child(3) {
+        .post .text-excrpt {
+            display:none;
+
+    @include mobile {
+            display:block;}
+        }
+        .thumb {
+            object-fit:cover;
+            height:100%;
+            width:100%;
+            object-position:top;
+        }
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination a, .pagination span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pagination a {
+    background: rgba(0,0,0,0.05);
+    color: #000;
+    cursor: pointer;
+}
+.pagination a:hover{background:$blue;color:$white}
+.pagination span {
+    border: 0;
+}
+
+.ml-1, .mx-1 {
+    margin-left: 0.25rem !important;
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  background-color: $lightGray;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 115px;
+    box-shadow: 0 0 10px -3px #666;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+
+    @include mobile {
+  right: 0px;}
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+
+    @include mobile {
+  max-width: 100%;}
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+  resize: none;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.cancel {
+    color: red;
+    border-radius: 50%;
+    background: #ddd;
+    padding: 0px 6px;
+    cursor: pointer;
+    float: right;
+}
+.cancel:hover{
+    color: $white;
+    background: $black;
+    box-shadow: 0 0 10px -3px #666;}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: transparent;
+  position: relative;
+  top: 65px;
+}
+
+.progress-bar {
+  height: 5px;
+  background: #dc322f;
+  width: 0%;
+  border-radius: 10px;
+}
+.icons{
+    float: left;
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    border-radius: 25px;
+    background: #fff;
+    padding-right: 12px;
+    margin-bottom: 20px;
+}
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "./highlights";
+@import "./svg-icons";

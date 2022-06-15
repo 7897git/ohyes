@@ -1,0 +1,21 @@
+
+
+<div class="grid">
+    <article class="post">
+                     <a href="{{ site.baseurl }}{{ post.url }}">
+                    {% if site.lazyimages == "enabled" %}
+                        <img class="thumb lazyimg" width="640" height="360" src="{{site.noimage}}" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                    {% else %}
+                        <img class="thumb" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                    {% endif %}</a>
+
+      <div class="entry">
+     <h3>{{ post.title }}</h3>
+        <div class="text-excrpt">
+        {{ post.excerpt | strip_html | truncatewords:30 }}
+        </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
+
+    </article>
+</div>

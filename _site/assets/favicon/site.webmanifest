@@ -1,0 +1,23 @@
+{
+    "name": "Blog-N",
+    "short_name": "Blog-N",
+    "description": "Web Blog from Somewhere",
+    "icons": [
+        {
+            "src": "/assets/logo/blog-n.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/logo/blog-n_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#eee",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
+}

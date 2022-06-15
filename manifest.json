@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Blog-N",
+  "background_color": "#fff",
+  "theme_color": "#eee",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Web Blog from Somewhere",
+  "icons": [{
+    "src": "/assets/logo/blog-n.png",
+    "sizes":"any",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/assets/logo/blog-n_x512.png",
+    "sizes":"512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }]
+}

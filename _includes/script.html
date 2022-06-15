@@ -1,0 +1,12 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="{{ site.baseurl }}/assets/js/infinite-jekyll.js"></script>
+{% if site.lazyimages == "enabled" %}
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+{% endif %}
+<script>
+window.onscroll=function(){myHeader()};var header=document.getElementById("header");var sticky=header.offsetTop;function myHeader(){if(window.pageYOffset>sticky){header.classList.add("sticky")}else{header.classList.remove("sticky")}
+var winScroll=document.body.scrollTop||document.documentElement.scrollTop;var height=document.documentElement.scrollHeight-document.documentElement.clientHeight;var scrolled=(winScroll/height)*100;document.getElementById("myBar").style.width=scrolled+"%"}
+</script>
+<script>
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('{{ site.baseurl }}/sw.js')})}
+</script>

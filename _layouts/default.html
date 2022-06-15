@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    {% include head.html %}
+  </head>
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+  <body>
+    {% include spinner.html %}
+    {% include header.html %}
+    {% include content.html %}
+    {% include footer.html %}
+    {% include chat.html %}
+    {% include script.html %}
+    {% include analytics.html %}
+  </body>
+</html>
