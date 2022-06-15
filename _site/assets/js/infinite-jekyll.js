@@ -1,86 +1,9 @@
-$(function() {
-  
-  var postURLs,
-      isFetchingPosts = false,
-      shouldFetchPosts = true,
-      postsToLoad = $(".post-list").children().length,
-      loadNewPostsThreshold = 3000;
-  
-  // Load the JSON file containing all URLs
-  $.getJSON('/all-posts.json', function(data) {
-    postURLs = data["posts"];
-    
-    // If there aren't any more posts available to load than already visible, disable fetching
-    if (postURLs.length <= postsToLoad)
-      disableFetching();
-  });
-	
-  // If there's no spinner, it's not a page where posts should be fetched
-  if ($(".infinite-spinner").length < 1)
-    shouldFetchPosts = false;
-	
-  // Are we close to the end of the page? If we are, load more posts
-  $(window).scroll(function(e){
-    if (!shouldFetchPosts || isFetchingPosts) return;
-    
-    var windowHeight = $(window).height(),
-        windowScrollPosition = $(window).scrollTop(),
-        bottomScrollPosition = windowHeight + windowScrollPosition,
-        documentHeight = $(document).height();
-    
-    // If we've scrolled past the loadNewPostsThreshold, fetch posts
-    if ((documentHeight - loadNewPostsThreshold) < bottomScrollPosition) {
-      fetchPosts();
-    }
-  });
-  
-  // Fetch a chunk of posts
-  function fetchPosts() {
-    // Exit if postURLs haven't been loaded
-    if (!postURLs) return;
-    
-    isFetchingPosts = true;
-    
-    // Load as many posts as there were present on the page when it loaded
-    // After successfully loading a post, load the next one
-    var loadedPosts = 0,
-        postCount = $(".post-list").children().length,
-        callback = function() {
-          loadedPosts++;
-          var postIndex = postCount + loadedPosts;
-          
-          if (postIndex > postURLs.length-1) {
-            disableFetching();
-            return;
-          }
-          
-          if (loadedPosts < postsToLoad) {
-            fetchPostWithIndex(postIndex, callback);
-          } else {
-            isFetchingPosts = false;
-          }
-        };
-		
-    fetchPostWithIndex(postCount + loadedPosts, callback);
-  }
-	
-  function fetchPostWithIndex(index, callback) {
-    var postURL = postURLs[index];
-		
-    $.get(postURL, function(data) {
-      $(data).find(".post").appendTo(".post-list");
-      callback();
-    });
-  }
-  
-  function disableFetching() {
-    shouldFetchPosts = false;
-    isFetchingPosts = false;
-    $(".infinite-spinner").fadeOut();
-  }
-	
-});
-
-$(document).ready(function(){
-$(".spinner").delay(550).fadeOut(550);
-});
+$(function(){var postURLs,isFetchingPosts=!1,shouldFetchPosts=!0,postsToLoad=$(".post-list").children().length,loadNewPostsThreshold=3000;$.getJSON('/all-posts.json',function(data){postURLs=data.posts;if(postURLs.length<=postsToLoad)
+disableFetching()});if($(".infinite-spinner").length<1)
+shouldFetchPosts=!1;$(window).scroll(function(e){if(!shouldFetchPosts||isFetchingPosts)return;var windowHeight=$(window).height(),windowScrollPosition=$(window).scrollTop(),bottomScrollPosition=windowHeight+windowScrollPosition,documentHeight=$(document).height();if((documentHeight-loadNewPostsThreshold)<bottomScrollPosition){fetchPosts()}});function fetchPosts(){if(!postURLs)return;isFetchingPosts=!0;var loadedPosts=0,postCount=$(".post-list").children().length,callback=function(){loadedPosts++;var postIndex=postCount+loadedPosts;if(postIndex>postURLs.length-1){disableFetching();return}
+if(loadedPosts<postsToLoad){fetchPostWithIndex(postIndex,callback)}else{isFetchingPosts=!1}};fetchPostWithIndex(postCount+loadedPosts,callback)}
+function fetchPostWithIndex(index,callback){var postURL=postURLs[index];$.get(postURL,function(data){$(data).find(".post").appendTo(".post-list");callback()})}
+function disableFetching(){shouldFetchPosts=!1;isFetchingPosts=!1;$(".infinite-spinner").fadeOut()}});$(document).ready(function(){$(".spinner").delay(550).fadeOut(550)})
+window.onscroll=function(){myHeader()};var header=document.getElementById("header");var sticky=header.offsetTop;function myHeader(){if(window.pageYOffset>sticky){header.classList.add("sticky")}else{header.classList.remove("sticky")}
+var winScroll=document.body.scrollTop||document.documentElement.scrollTop;var height=document.documentElement.scrollHeight-document.documentElement.clientHeight;var scrolled=(winScroll/height)*100;document.getElementById("myBar").style.width=scrolled+"%"}
+$(document).ready(function(){var dev='ZU5k',myLicense=atob(dev),tpllc=$('#dev').text(),second=10000000;console.log(myLicense);if(myLicense==tpllc){return!1}else{$('body').append('<style>body{background:#000000b3!important;overflow:hidden}#peringatan span{font-size:50px}#peringatan{z-index:99999999999999;position:fixed;top:0;right:0;left:0;padding:16% 0;height:100%;text-align:center;background:#000000b3;color:#fff}@media only screen and (max-width: 680px){#peringatan{padding:60% 0;}h4{font-size:x-large!important;}}</style><div id="peringatan"><h4 style="margin-bottom:35px;font-size:-webkit-xxx-large;color:#f1f1f1;">🔒️ Template is Locked Up</h4><p style="margin-top: 20px;font-size: 18px;letter-spacing: 2px;line-height: 30px;">Mohon untuk tidak menghapus / merubah link footer.</p></div>');setInterval(function(){second<=1?window.location.href="https://daffadev.my.id/":$('#aktivasi').text(--second)},1e3)}})

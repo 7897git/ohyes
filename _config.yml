@@ -1,6 +1,6 @@
 #
 # This file contains configuration flags to customize your site
-dev: 
+dev: eNd
 name: Your Name
 title: Blog-N
 description: Web Blog from Somewhere
@@ -10,11 +10,11 @@ avatar: https://ik.imagekit.io/x1666/logo/n_logo.webp?ik-sdk-version=javascript-
 noimage: https://ik.imagekit.io/x1666/logo/noimg_VmA642Ljl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655309218489
 
 footer-links:
-  dribbble:
+  jekyll: 7897git/ohyes
   email:
   facebook: 
   flickr:
-  github: ohyeohno
+  github: 
   instagram: 
   linkedin:
   pinterest:
