@@ -25,19 +25,18 @@ registerRoute(
 )
 
 workbox.precaching.precacheAndRoute([
-  { url: '/Hello-WorldKopi/', revision: '2022-03-07' },
-  { url: '/Hello-Worldcopy/', revision: '2014-03-07' },
-  { url: '/Hello-copy1/', revision: '2014-03-06' },
-  { url: '/Hello-World1/', revision: '2014-03-05' },
-  { url: '/Hello-copy/', revision: '2014-03-04' },
-  { url: '/Hello-World/', revision: '2014-03-03' },
-  { url: '/Hello/', revision: '2014-03-02' },
-  { url: '/Worldcopy/', revision: '2014-03-01' },
-  { url: '/', revision: '202206161957' },
-  { url: '/shop/', revision: '202206161957' },
-  { url: '/about/', revision: '202206161957' },
-  { url: '/assets/css/style.css', revision: '202206161957' },
-  { url: '/assets/css/spinner.css', revision: '202206161957' }
+  { url: '/5-Kebiasaan-Orang-yang-Sangat-Produktif-Bekerja-dari-Rumah/', revision: '2022-03-07' },
+  { url: '/Bagaimana-Eropa-Menjadi-Begitu-Kaya/', revision: '2022-03-01' },
+  { url: '/Bagaimana-Mengubah-Pikiran-Siapapun-dalam-Bisnis-Tanpa-Membujuk-Mereka/', revision: '2021-06-03' },
+  { url: '/kisah-hiroshima-rasisme-dan-hak-asasi-manusia/', revision: '2021-04-03' },
+  { url: '/fakta-tentang-pembakaran-lemak-dan-lari/', revision: '2021-03-05' },
+  { url: '/jatuh-bangkit-nikola-tesla-dan-menaranya/', revision: '2021-03-04' },
+  { url: '/ilmuwan-menelusuri-perjalanan-hidup-mammoth-berbulu/', revision: '2021-03-02' },
+  { url: '/', revision: '202206162220' },
+  { url: '/shop/', revision: '202206162220' },
+  { url: '/about/', revision: '202206162220' },
+  { url: '/assets/css/style.css', revision: '202206162220' },
+  { url: '/assets/css/spinner.css', revision: '202206162220' }
 ])
 
 registerRoute(

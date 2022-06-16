@@ -417,6 +417,16 @@ nav {
 }
 .adsbygoogle .iklan{border-radius:10px!important;overflow:hidden;}
 
+quote {
+    background: #ddd;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    color: brown;
+    font-style: italic;
+    font-weight: 600;
+}
+
 .firstpage .grid:nth-child(1) {
     .post .thumb{
     border-radius: 10px;
@@ -442,6 +452,9 @@ nav {
             height:100%;
             width:100%;
             object-position:top;
+        }
+        h3 {
+            font-size: 16px;
         }
 }
 

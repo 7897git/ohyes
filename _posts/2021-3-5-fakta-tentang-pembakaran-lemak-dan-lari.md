@@ -1,0 +1,56 @@
+---
+layout: post
+title: Fakta Tentang Pembakaran Lemak dan Lari
+image: https://ik.imagekit.io/x1666/supaya-kalori-terbakar_rFhsZWPrf.jpg?updatedAt=1655388620331&tr=w-640,h-360,fo-custom,cm-extract
+excerpt_separator: <!--more-->
+---
+
+Jika Anda membaca ini sambil duduk, selamat — Anda terutama membakar lemak. Namun, jika Anda bangun dan mulai bergerak di sekitar rumah, Anda tidak akan membakar banyak lemak. Dan jika Anda merasa sangat aktif dan melakukan sprint di luar, Anda hampir tidak akan membakar lemak.
+
+Meskipun semua yang baru saja kami katakan itu benar, itu tidak berarti yang harus Anda lakukan hanyalah duduk diam dan melihat simpanan lemak Anda mencair. Presentasi umum tentang cara berolahraga untuk menghilangkan lemak — disajikan dalam bentuk yang memang dilebih-lebihkan di atas — menyesatkan.
+
+Tidak ada “zona pembakaran lemak” khusus yang menjadi kunci untuk menjadi kurus. Inilah yang perlu Anda ketahui tentang membakar lemak melalui olahraga.
+
+Apa Bahan Bakar Lari Anda?
+
+Lihatlah grafik dinding atau peralatan kardio di gym, atau dengarkan banyak pelatih pribadi, dan Anda akan menemukan zona pembakaran lemak. Saran standar untuk masuk ke zona ini adalah berolahraga sekitar 60 persen dari detak jantung maksimum Anda.
+
+Tingkat pengerahan tenaga itu dengan intensitas yang relatif rendah. Pelari biasanya dapat berbicara dalam kalimat lengkap pada upaya ini, yang merupakan langkah mudah seperti Anda mungkin berlari sehari sebelum perlombaan atau sehari setelah latihan interval yang keras. Bekerja di zona ini, dikatakan, akan membakar lebih banyak lemak, dan karenanya menghasilkan penurunan berat badan jangka panjang yang lebih besar, daripada melakukan latihan yang sama dengan intensitas yang lebih tinggi.
+
+Di permukaan, ada beberapa substansi untuk menjadi bagian dari klaim ini, menurut penelitian selama beberapa dekade. Setiap saat, tubuh Anda mengisi bahan bakar dirinya sendiri terutama dengan membakar campuran lemak dan glikogen (bentuk karbohidrat yang tersimpan di otot Anda). Semakin kurang aktif Anda pada saat tertentu, semakin besar persentase campuran bahan bakar yang berasal dari lemak. Saat istirahat, lemak merupakan 85 persen dari kalori yang dibakar. Angka itu bergeser menjadi sekitar 70 persen dengan kecepatan berjalan santai. Jika Anda beralih ke lari dengan upaya sedang, campurannya menjadi sekitar 50 persen lemak dan 50 persen karbohidrat, dan semakin bergerak ke arah karbohidrat semakin cepat Anda melakukannya.
+
+Salah satu alasan tubuh Anda mengalami perubahan ini adalah karena otak Anda hampir seluruhnya menggunakan karbohidrat, dan ia ingin mempertahankan simpanan karbohidratnya yang terbatas. Meskipun membakar lemak membutuhkan lebih banyak oksigen daripada membakar karbohidrat, ada banyak oksigen yang tersedia saat Anda beristirahat atau bekerja dengan intensitas rendah. Namun, ketika Anda mulai berolahraga lebih keras, tubuh Anda membutuhkan bahan bakar lebih cepat, dan lebih banyak beralih ke karbohidrat.
+
+Perubahan rasio bahan bakar yang terbakar inilah yang menyebabkan Anda mungkin menabrak “The Wall” saat mencoba berlari maraton secepat mungkin, tetapi Anda mungkin tidak bisa melakukannya selama ultramaraton. Lari maraton lebih cepat dari kecepatan latihan normal Anda dapat menghabiskan semua glikogen yang tersimpan di otot Anda. Ketika itu terjadi—biasanya di 10K terakhir—otot Anda berubah menjadi lemak untuk memicu desakan keras kepala Anda untuk mencapai garis finis. Tetapi membakar lemak membutuhkan lebih banyak oksigen daripada membakar karbohidrat, jadi untuk memenuhi permintaan akan lebih banyak oksigen itu, Anda harus sangat melambat, biasanya satu menit per mil atau lebih.
+
+Sebaliknya, jika Anda pernah berlari ultramaraton, kemungkinan intensitasnya jauh lebih rendah, mungkin lebih lambat dari kecepatan normal Anda. Persentase setiap mil yang didorong oleh lemak lebih tinggi daripada kecepatan lari maraton yang lebih cepat. Jadi meskipun Anda mungkin berlari lebih lama dalam ultra, Anda cenderung tidak merasakan sensasi harus tiba-tiba melambat secara signifikan karena simpanan glikogen yang terkuras. Bahkan pelari paling kurus pun memiliki lemak tubuh yang cukup untuk bahan bakar ratusan mil dengan kecepatan santai.
+
+Ada Pembakaran Lemak, dan Ada Penurunan Berat Badan
+
+Jadi, memang benar bahwa pada beberapa intensitas latihan Anda membakar persentase lemak yang lebih tinggi daripada pada intensitas lainnya. Tetapi berlari dengan kecepatan tertentu sehingga Anda membakar persentase lemak yang lebih tinggi tidak secara ajaib melelehkan lemak. Dan bahkan jika itu terjadi, perbedaan total lemak yang terbakar dalam berlari tiga mil secara perlahan dan melakukan jarak yang sama lebih cepat mungkin hanya beberapa lusin kalori. Itu dapat diabaikan dalam skema besar, mengingat bahwa membakar satu pon lemak berarti membakar sekitar 3.500 kalori.
+
+Lebih penting lagi, seperti yang dikatakan Asker Jeukendrup, Ph.D., seorang peneliti nutrisi olahraga terkemuka, pembakaran lemak dan penurunan berat badan tidak identik. Kontrol berat badan adalah masalah kalori masuk dan kalori keluar. Bakar lebih banyak kalori daripada yang Anda konsumsi, dan pada akhirnya Anda akan kehilangan berat badan. Lakukan yang sebaliknya, dan Anda akhirnya akan menambah berat badan. “Jika Anda membakar lebih banyak lemak, tetapi Anda makan lebih banyak kalori daripada total kalori yang Anda bakar, Anda tidak akan kehilangan berat badan,” tulis Jeukendrup.
+
+Karena total kalori yang terbakar adalah yang terpenting, mungkin Anda dapat melihat kelemahan lain dengan garis pemikiran “zona pembakaran lemak”: Anda bisa menghabiskan satu jam berjalan kaki sejauh tiga mil; dari sekitar 300 kalori yang Anda bakar, persentase yang lebih tinggi berasal dari lemak daripada jika Anda berlari sejauh tiga mil. Tetapi pada jam itu, Anda mungkin berlari sejauh enam mil, membakar kalori sekitar dua kali lebih banyak.
+
+Jika Anda ingin mendapatkan semua culun, matematika dalam contoh berikut (dan dalam grafik) menentang zona pembakaran lemak.
+
+Berjalan tiga mil dalam satu jam, dan dari sekitar 300 kalori yang akan Anda bakar, sekitar 210 di antaranya (70 persen) akan didorong oleh lemak. Berlari 10 menit mil untuk jam itu, dan dari sekitar 600 kalori yang akan Anda bakar, sekitar 300 (50 persen) di antaranya akan didorong oleh lemak. Selain itu, metabolisme Anda tetap meningkat lebih lama setelah latihan berat daripada setelah latihan intensitas rendah. Sementara pembakaran pasca lari ini kemungkinan hanya beberapa lusin kalori tambahan, atau kurang dari jumlah dalam pisang, setiap bit membantu jika penurunan berat badan adalah salah satu tujuan Anda.
+
+Alasan Sebenarnya untuk Mempertimbangkan Pembakaran Lemak sebagai Pelari
+
+Berlari dengan upaya lembut sekitar 60 persen dari detak jantung maksimum Anda bukanlah kunci untuk menurunkan berat badan, tetapi masih ada banyak alasan untuk berlari secara teratur dengan kecepatan ini.
+
+Lari ringan membantu Anda pulih sebelum dan sesudah latihan yang lebih keras, memberikan manfaat kesehatan kardiovaskular dan mental yang luar biasa, dan sangat menyenangkan. Lari ringan juga memungkinkan Anda mengumpulkan banyak jarak tempuh, dan dengan demikian membakar lebih banyak kalori, jika hal itu merupakan salah satu motivasi Anda untuk berlari.
+
+Mengenai pembakaran lemak dan lari, mungkin alasan terpenting untuk memperhatikan topik ini berkaitan dengan kinerja pelatihan, bukan penurunan berat badan. Seperti yang kami sebutkan di atas, pada tingkat upaya yang lebih tinggi secara berkelanjutan, seperti kecepatan setengah maraton ke maraton, lari Anda didorong oleh persentase karbohidrat yang lebih tinggi daripada kecepatan yang lebih lambat. Berlari cukup jauh pada kecepatan ini, dan Anda akan mulai menghabiskan simpanan glikogen otot Anda, dan Anda harus memperlambatnya.
+
+Salah satu tujuan utama latihan maraton adalah menjadi lebih efisien dalam membakar lemak saat berlari dengan kecepatan yang lebih cepat ini. Jika Anda dapat melatih otot Anda untuk membakar sedikit lebih banyak lemak per mil saat berlari dengan kecepatan maraton, maka simpanan glikogen Anda akan bertahan lebih lama, dan peluang Anda untuk mempertahankan kecepatan yang kuat hingga finis akan meningkat.
+
+Cara terbaik untuk mencapainya adalah dengan berlari bukan dengan lari ringan, tetapi mendekati kecepatan maraton Anda, dengan ruang gerak sekitar 5 persen per mil lebih cepat atau lebih lambat. Misalnya, jika kecepatan lari maraton Anda adalah 8:00 per mil, maka larilah antara kira-kira 7:36 dan 8:24 per mil.
+
+Anda dapat melakukan lari ini sebagai latihan yang berdiri sendiri, seperti 6 hingga 10 mil dengan kecepatan maraton setelah pemanasan 1 atau 2 mil. Anda juga dapat memasukkannya ke bagian akhir lari panjang Anda, seperti berlari santai selama satu jam dan kemudian berlari satu jam lagi dengan kecepatan sekitar maraton. Ketika dilakukan beberapa kali dalam sebulan, lari berkelanjutan pada tingkat upaya ini akan meningkatkan efisiensi pembakaran lemak otot Anda.
+
+Memulai beberapa lari jarak menengah hingga panjang dengan perut kosong, seperti segera setelah bangun tidur, dan tidak mengonsumsi bahan bakar selama lari itu, juga dapat melatih tubuh Anda untuk membakar lebih banyak lemak dengan kecepatan tertentu. Sebaiknya simpan lari “puasa” ini untuk sesi yang mudah hingga sedang. (Pelajari lebih lanjut tentang baik dan buruk dari latihan kardio puasa.)
+
+Semua ini mungkin tampak seperti banyak yang perlu diingat tentang pembakaran lemak. Kuncinya: Abaikan klaim bahwa Anda akan kehilangan lebih banyak berat badan dengan berlari di “zona pembakaran lemak” khusus. Ikuti rencana pelatihan yang baik, makan makanan yang seimbang, dan tetap cukup sehat untuk menjalankan jumlah yang Anda inginkan, dan Anda mungkin akan puas dengan berat badan yang baik untuk Anda.
