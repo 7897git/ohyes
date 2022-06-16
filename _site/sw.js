@@ -33,11 +33,11 @@ workbox.precaching.precacheAndRoute([
   { url: '/Hello-World/', revision: '2014-03-03' },
   { url: '/Hello/', revision: '2014-03-02' },
   { url: '/Worldcopy/', revision: '2014-03-01' },
-  { url: '/', revision: '202206160150' },
-  { url: '/shop/', revision: '202206160150' },
-  { url: '/about/', revision: '202206160150' },
-  { url: '/assets/css/style.css', revision: '202206160150' },
-  { url: '/assets/css/spinner.css', revision: '202206160150' }
+  { url: '/', revision: '202206161957' },
+  { url: '/shop/', revision: '202206161957' },
+  { url: '/about/', revision: '202206161957' },
+  { url: '/assets/css/style.css', revision: '202206161957' },
+  { url: '/assets/css/spinner.css', revision: '202206161957' }
 ])
 
 registerRoute(
