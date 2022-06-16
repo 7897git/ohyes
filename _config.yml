@@ -32,11 +32,15 @@ adsense: "disabled"
 adsense-data-ad-client: "ca-pub-xxxxxxxxxxxxxx"
 adsense-data-ad-slot: "xxxxxxxx"
 
-url:
+url: 
 
 baseurl: ""
 
 permalink: /:title/
+
+collections:
+  shop:
+    output: true
 
 version: v4.2.2
 

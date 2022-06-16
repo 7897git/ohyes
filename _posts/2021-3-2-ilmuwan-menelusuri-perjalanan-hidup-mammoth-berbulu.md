@@ -5,7 +5,7 @@ image: https://ik.imagekit.io/x1666/mamot_E144ghOPn.jpg?updatedAt=1655392641123&
 excerpt_separator: <!--more-->
 ---
 
-Sekitar 17.000 tahun yang lalu, mammoth berbulu jantan melintasi puluhan ribu mil melintasi Alaska sebelum mati di lereng utara Pegunungan Brooks pada usia 28 tahun. Sekarang, para ilmuwan telah berhasil merekonstruksi detail intim tentang kehidupan individu yang punah ini. , yang tertulis dalam komposisi kimia dari gading yang ditinggalkannya.
+Sekitar 17.000 tahun yang lalu, mammoth berbulu jantan puluhan ribu mil melintasi Alaska sebelum mati di lereng utara Pegunungan Brooks pada usia 28 tahun. Sekarang, para ilmuwan telah berhasil merekonstruksi detail intim tentang kehidupan individu yang punah ini. , yang tertulis dalam komposisi kimia dari gading yang ditinggalkannya.
 
 Mammoth yang dulu berjalan dengan jarak yang menakjubkan sekitar 43.000 mil (70.000 kilometer)—sama dengan hampir dua kali keliling Bumi—menurut sebuah penelitian yang diterbitkan pada hari Kamis di Science. Setelah tumbuh dengan kawanan keluarganya, jantan menyerang sebagai orang dewasa sekitar usia 15 dan berkeliaran secara luas melintasi hutan belantara utara selama lebih dari satu dekade sampai kemungkinan mati kelaparan selama musim dingin atau musim semi yang keras.
 
